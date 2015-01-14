@@ -71,9 +71,13 @@ public class DateUtils {
 	/**
 	 * get date
 	 * 
+	 * <pre>
+	 * yyyy-MM-ddTHH:mm:ss
+	 * yyyy-MM-dd HH:mm:ss
+	 * yyyy-MM-dd
+	 * </pre>
 	 * 
 	 * @param str
-	 *            yyyy-MM-ddTHH:mm:ss,yyyy-MM-dd HH:mm:ss,yyyy-MM-dd
 	 * @return
 	 */
 	public static Date getDate(String str) {
@@ -104,9 +108,14 @@ public class DateUtils {
 	/**
 	 * compare Date
 	 * 
+	 * <pre>
+	 * d1 > d2 : true
+	 * d1 <= d2 : false
+	 * </pre>
+	 * 
 	 * @param d1
 	 * @param d2
-	 * @return d1 > d2 return true ;d1 <= d2 : false
+	 * @return
 	 */
 	public static boolean compare(Date d1, Date d2) {
 		return compare(getDateTime(d1), getDateTime(d2));
