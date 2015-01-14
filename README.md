@@ -24,3 +24,6 @@
 		<version>1.0</version>
 </dependency>
 ```
+
+* 使用github作为maven仓库
+	参考：[maven-repository-on-github](http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github)
