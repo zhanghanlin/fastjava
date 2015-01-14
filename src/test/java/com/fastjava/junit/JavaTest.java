@@ -1,4 +1,4 @@
-package com.fastjava.test;
+package com.fastjava.junit;
 
 import java.util.Comparator;
 import java.util.Date;
