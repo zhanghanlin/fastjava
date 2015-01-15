@@ -37,5 +37,6 @@
 </dependency>
 ```
 
-* 使用github作为maven仓库   
+* 使用github作为maven仓库  
+> mvn clean 
 > 请参考[maven-repository-on-github](http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github)
