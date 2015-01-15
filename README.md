@@ -11,7 +11,7 @@
 	> mvn clean  
 	> mvn build deploy
 
-* 项目pom.xml引用
+* 其他项目pom.xml引用
 ```xml
 <repositories>
 		<repository>
