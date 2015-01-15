@@ -1,8 +1,14 @@
 # fastjava
-* 发布jar：
+* 依赖jar  
+> dollar  
+> fastjson  
+> joda-time  
+> commons-lang3  
+> commons-httpclient  
+> junit  
+* 发布jar  
 > mvn clean  
-> mvn build deploy
-
+> mvn build deploy  
 * 项目pom.xml引用
 ```xml
 <repositories>
@@ -27,6 +33,6 @@
 		<artifactId>fastjava</artifactId>
 		<version>1.0</version>
 </dependency>
-```
-
-* 使用github作为maven仓库请参考：[maven-repository-on-github](http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github)
+```  
+* 使用github作为maven仓库  
+> 请参考[maven-repository-on-github](http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github)
