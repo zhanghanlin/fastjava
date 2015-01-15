@@ -7,9 +7,9 @@
 	* commons-httpclient
 	* junit
 	
-* 发布jar
-	* mvn clean
-	* mvn build deploy
+* 发布jar  
+> mvn clean
+> mvn build deploy
 
 * 项目pom.xml引用
 ```xml
