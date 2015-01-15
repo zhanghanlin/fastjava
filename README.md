@@ -1,7 +1,6 @@
 # fastjava
 * 发布jar：
-> mvn clean
-> 
+> mvn clean  
 > mvn build deploy
 
 * 项目pom.xml引用
