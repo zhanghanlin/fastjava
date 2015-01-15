@@ -8,8 +8,8 @@
 	* junit
 	
 * 发布jar  
-> mvn clean  
-> mvn build deploy
+	> mvn clean  
+	> mvn build deploy
 
 * 项目pom.xml引用
 ```xml
@@ -39,4 +39,4 @@
 
 * 使用github作为maven仓库
 
-> 请参考[maven-repository-on-github](http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github)
+	> 请参考[maven-repository-on-github](http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github)
