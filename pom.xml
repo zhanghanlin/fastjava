@@ -23,6 +23,7 @@
 		<maven-deploy-plugin.version>2.8.1</maven-deploy-plugin.version>
 		<dollar.version>1.0-beta3</dollar.version>
 		<commons-lang3.version>3.1</commons-lang3.version>
+		<commons-httpclient.version>3.0.1</commons-httpclient.version>
 		<junit.version>4.7</junit.version>
 	</properties>
 	<distributionManagement>
@@ -93,6 +94,12 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>${commons-lang3.version}</version>
+		</dependency>
+		<!-- httpclient -->
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>${commons-httpclient.version}</version>
 		</dependency>
 		<!-- junit -->
 		<dependency>

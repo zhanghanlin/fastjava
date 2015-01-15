@@ -8,6 +8,7 @@ import org.joda.time.DateTime;
 import org.junit.Test;
 
 import com.fastjava.util.DateUtils;
+import com.fastjava.util.HttpUtils;
 import com.fastjava.util.ListUtils;
 
 public class JavaTest {
@@ -59,6 +60,15 @@ public class JavaTest {
 				}));
 		System.out.println("list end----------------------");
 		System.out.println();
+	}
+	
+	@Test
+	public void httpTest() {
+		String url = "http://www.baidu.com";
+		String re = HttpUtils.doGet(url, null);
+		System.out.println(re);
+		String re2 = HttpUtils.doPost(url, null);
+		System.out.println(re2);
 	}
 }
 
