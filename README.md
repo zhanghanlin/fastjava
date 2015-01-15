@@ -1,16 +1,15 @@
 # fastjava
-###依赖jar
-	dollar
-	fastjson
-	joda-time
-	commons-lang3
-	commons-httpclient
-	junit
+* 依赖jar
+	* dollar
+	* fastjson
+	* joda-time
+	* commons-lang3
+	* commons-httpclient
+	* junit
 	
 * 发布jar
-
-> mvn clean  
-> mvn build deploy
+	* mvn clean
+	* mvn build deploy
 
 * 项目pom.xml引用
 ```xml
